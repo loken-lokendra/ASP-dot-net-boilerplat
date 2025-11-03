@@ -1,0 +1,97 @@
+# ============================
+#  .NET / ASP.NET Core ignores
+# ============================
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.db
+*.log
+*.cache
+*.user
+*.suo
+*.tmp
+*.csproj.user
+*.rsuser
+*.vscode/
+*.swp
+*.vs/
+*.idea/
+*.DS_Store
+
+# ============================
+#  Build results
+# ============================
+/build/
+/publish/
+/dist/
+/artifacts/
+/Release/
+/Debug/
+
+# ============================
+#  Environment & secrets
+# ============================
+.env
+.env.*
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+
+# ============================
+#  Entity Framework Migrations
+# ============================
+/Migrations/
+
+# ============================
+#  Logs
+# ============================
+*.log
+logs/
+Logs/
+ErrorLogs/
+*.txt
+
+# ============================
+#  Node / Frontend (if using React or UI)
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+dist/
+coverage/
+
+# ============================
+#  IDE Specific
+# ============================
+.vscode/
+.idea/
+*.ncrunch*
+_ReSharper*/
+*.DotSettings.user
+*.vsconfig
+
+# ============================
+#  Database / local files
+# ============================
+*.sqlite
+*.db
+*.bak
+*.sql
+*.mdf
+*.ldf
+
+# ============================
+#  Others
+# ============================
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.orig
+*.rej
+*.diff
